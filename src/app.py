@@ -77,7 +77,7 @@ activities = {
     }
 }
 
-
+#prueba
 @app.get("/")
 def root():
     return RedirectResponse(url="/static/index.html")
